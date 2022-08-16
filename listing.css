@@ -1,0 +1,399 @@
+body{
+    margin: 0px;
+}
+#headerband{
+    height: 50px;
+    width: 100%;
+    /* border: brown 3px solid; */
+    background-color: #00c3cc;
+    margin: auto;
+}
+#Designs{
+    height: 50px;
+    width: 100%;
+    /* border: brown 3px solid; */
+}
+
+/* .flex-item{
+    text-align: center;
+    border: rgb(18, 153, 59) 3px solid;
+} */
+#itemname{
+    /* border: brown 3px solid; */
+    height: 46px;
+    width: 92%;
+    float: left;
+    margin-top: 0%;
+    margin-left: 4%;
+}
+#goldcoin{
+   font-size: 22px;
+   font-family: Raleway, "Roboto Slab";
+   color: #000;
+}
+#sortby{
+    font-size: 18px;
+   font-family: Raleway, "Roboto Slab";
+   color: rgb(161, 136, 136);
+   float:right
+}
+#Bestseller{
+    float: right;
+    font-size: 12px;
+    margin-top: 28px;
+    margin-right: -60px;
+    font-family: Raleway, "Roboto Slab";
+   color: rgb(161, 136, 136);
+}
+
+#filter{
+    /* border: brown 3px solid; */
+    height: 280px;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 0%;
+    float: left;
+}
+#compare{
+    /* border: brown 3px solid; */
+    height: 40px;
+    width: 89%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+#compare > img{
+    margin-left: -29px;
+    margin-top: -4px;
+    height: 39px;
+}
+#filterby{
+    margin:5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.price{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin:8%;
+    
+}
+.plus{
+    margin-right: 15px;
+    float: right;
+}
+
+#items{
+    /* border: brown 3px solid; */
+    /* height: 588px; */
+    width: 71%;
+    /* margin-top: 2%;
+    margin-left: 25%; */
+    display: inline-block;
+    
+}
+#inblock{
+    display: inline-block;
+    /* border: brown 3px solid; */
+
+}
+.tiles{
+    /* box-shadow: 10px 20px 15px grey; */
+    height: 300px;
+    width: 26%;
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+
+}
+.coinimg > img{
+    height:220px;
+    margin-left: 11%;
+    
+}
+
+
+.imgdes{
+   
+        user-select: auto;
+        margin-: 16%;
+        margin: 15%;
+        margin-top: -15%;
+        margin-left: 23%;
+        /* margin-left: 8%; */
+        text-align: center;
+        font-size: 16px;
+        /* display: inline-block; */
+   
+}
+.rupee{
+    line-height: 1.6;
+   margin:2%;
+   font-size: 18px;
+   font-weight: bold;
+}
+.StoLocater{
+    color: black;
+    margin-left: 14%;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-top: 1%;
+    /* position: absolute; */
+    float: left;
+    
+}
+
+#Contact{
+    /* height: 400px; */
+    display: inline-block;
+    width: 100%;
+    /* border: brown 3px solid; */
+    background-color: #b0a16e;
+    /* border: rgb(6, 153, 63) 3px solid; */
+}
+
+#custservice1{
+    height: 300px;
+    width: 25%;
+    /* border: brown 3px solid; */
+    margin-left :5%;
+    margin-top: 5%;
+    float: left;
+    color: white;
+    font-family: Raleway, "Roboto Slab";
+
+}
+#custservice2{
+    height: 300px;
+    width: 20%;
+    /* border: brown 3px solid; */
+    margin-left :5%;
+    margin-top: 5%;
+    float: left;
+    color: white;
+    font-family: Raleway, "Roboto Slab";
+
+}
+#custservice3{
+    height: 300px;
+    width: 35%;
+    /* border: brown 3px solid; */
+    margin-left :5%;
+    margin-top: 5%;
+    float: left;
+    color: white;
+    font-family: Raleway, "Roboto Slab";
+
+}
+#apple{
+    /* margin-left :1%; */
+    /* margin-top: 5%; */
+
+}
+.follow{
+    float: left;
+    margin-left: 2%;
+}
+#fb{
+    height: 24px;
+    margin-left: 0px;
+    width: 18px;
+}
+#insta{
+    height: 24px;
+    /* margin-left: 0px; */
+    width: 24px;
+}
+ /* media query to make page responsive */
+/* @media screen and ( max-width: 1366px ){
+    body{
+        /* background-color: #00c3cc; */
+    
+
+
+@media screen and ( max-width: 1060px ){
+    body{
+        /* background-color: #52dd28; */
+    }
+    .tiles{
+        width:45%;
+    }
+    .StoLocater{
+        margin-left: 7%;
+    }
+    #compare > img {
+        margin-left: -16px;
+        margin-top: 3px;
+        height: 31px;
+    }
+    .imgdes {
+        user-select: auto;
+        margin: 16%;
+        margin: 15%;
+        margin-top: -11%;
+        margin-left: 10%;
+        /* margin-left: 8%; */
+        text-align: center;
+        font-size: 14px;
+        /* display: inline-block; */
+    }
+    #compare > img {
+        margin-left: -16px;
+        margin-top: 3px;
+        height: 21px;
+    }
+    #goldcoin{
+    margin-left: -3%;
+    margin-top: 1%;
+    position: absolute;
+    }
+    #custservice1 > h2 {
+        font-size: 23px;
+    }
+    #custservice2 > h2 {
+        font-size: 23px;
+    }
+    #custservice3 > h2 {
+        font-size: 23px;
+    }
+    #custservice1 > h5 {
+        font-size: 14px;
+    }
+    #custservice2 > h5 {
+        font-size: 14px;
+    }
+    #custservice3 > h5 {
+        font-size: 14px;
+    }
+    #apple{
+        margin-top: 1%;
+    }
+    #custservice3 > h5{
+        margin-top:2% ;
+    }
+    #goldcoin{
+        font-size: 22px;
+    }
+}
+@media screen and ( max-width: 800px ){
+    body{
+        /* background-color: #e73478; */
+        margin-left: 8%;
+       
+        margin: 0px;
+    }
+    .StoLocater{
+        font-size: 18px;
+        margin-left: 7%;
+    }
+    #compare > img{
+        height: 24px;
+    }
+    #filter{
+        margin:2%;
+    }
+    .tiles {
+        width: 35%;
+        margin-left: 8%;
+    }
+    .coinimg > img {
+        height: 180px;
+        margin-left: 12%;
+    }
+    .imgdes{
+        
+        margin-left: 33%;
+        padding: 0px;
+        font-size: 13px;
+    }
+    .rupee{
+        font-size: 15px;
+    }
+    #custservice1 > h2 {
+        font-size: 20px;
+    }
+    #custservice2 > h2 {
+        font-size: 20px;
+    }
+    #custservice3 > h2 {
+        font-size: 20px;
+    }
+    #custservice1 > h5 {
+        font-size: 15px;
+    }
+    #custservice2 > h5 {
+        font-size: 15px;
+    }
+    #custservice3 > h5 {
+        font-size: 15px;
+    }
+} 
+@media screen and ( max-width: 660px ){
+    body{
+        /* background-color: yellow; */
+    }
+    .tiles{
+        width : 80%;
+        /* margin-top: 2%; */
+        margin-bottom: -11%
+    }
+    .StoLocater{
+        font-size: 13px;
+        margin-left: 3%;
+    }
+    #Bestseller{
+        font-size: 11px;
+    }
+    #compare > img{
+        height: 20px;
+    }
+    .coinimg > img {
+        height: 220px;
+        margin-left: 30%;
+    }
+    .imgdes{
+        margin-left: 25%;
+        font-size: 15px;
+    }
+    #goldcoin{
+        font-size: 18px;
+    }
+    .price{
+        font-size: 12px;
+    }
+    #filter{
+        width:80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 400px;
+        font-size: medium;
+    }
+    #items{
+        width:95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 2%;
+    }
+    #custservice1 > h2 {
+        font-size: 20px;
+    }
+    #custservice2 > h2 {
+        font-size: 20px;
+    }
+    #custservice3 > h2 {
+        font-size: 20px;
+    }
+    #custservice1 > h5 {
+        font-size: 12px;
+    }
+    #custservice2 > h5 {
+        font-size: 12px;
+    }
+    #custservice3 > h5 {
+        font-size: 12px;
+    }
+   
+}
+
+ 
+
